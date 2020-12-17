@@ -1,0 +1,85 @@
+     body {
+    background-color: lightblue;
+    margin: 0;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
+
+.header{
+  background-color: white;
+  margin-bottom: 80;
+  overflow: hidden;
+}
+
+.header .banner{
+  position: relative;
+  background-color: #ffffff;
+  line-height: 50px;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.header .logo{
+  display: block;
+  float: left;
+  height: 96px;
+  width: 70px;
+  border-width: 0px;
+  background-color: white;
+  background-image: url("img/logo.jpg");
+  background-size: contain;
+  clear: both;
+}
+
+.header .title{
+  font-family: fontawesome;
+  text-decoration: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 37px;
+  letter-spacing: 3px;
+  color: #555555;
+  display: block;
+}
+
+.header .subtitle{
+  float: left;
+  display: block;
+}
+
+.menu{
+  z-index: 2;
+  font-size: 17px;
+  background-color: navy;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 0;
+  letter-spacing: 1px;
+  font-family: "Segoe UI",Arial,sans-serif;
+  overflow: auto;
+}
+
+
+.menu li{
+  float: left;
+  width: auto;
+  border: none;
+  display: block;
+  outline: 0;
+}
+
+.menu li a{
+  color: #fff;
+  line-height: 24px;
+  text-decoration: none;
+  padding: 10px 15px 9px 15px !important;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
