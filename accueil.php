@@ -76,5 +76,6 @@
   <section name="footer" class="footer">
     <div>
       Pied de page
+      
     </div>
   </section>
